@@ -1,0 +1,125 @@
+/*CSS */
+
+body, html{
+/*background-color: #82c2e0;*/
+background-color: #5badd6;
+}
+
+
+/***********************
+	BARRA MENU
+***********************/
+.navbar-header img{
+  margin-top:20px;  
+}
+
+.navbar.navbar-custom{
+	background:rgba(58, 58, 58, 0.51);
+  padding:10px 0px;
+}
+
+.navbar-custom.top-nav-collapse{
+	background:#333333;
+}
+.nav.navbar-nav.nav-top{
+  margin-right:40px; 
+  float:right;
+}
+.nav.navbar-nav.nav-top > li > a {
+	font-size:10px; 
+}
+.nav.navbar-nav.nav-top > li > a.a_panel{
+	background-color: #f2f2f2;
+  border-radius:20px;
+  color: #1e9bd8;
+  font-weight:bold;
+}
+
+
+ul.navbar-nav.nav > li > a{
+  color: #fff;
+  text-transform: uppercase;
+	font-size:12px;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  letter-spacing: 1px;
+}
+
+ul.navbar-nav.nav > li > a:hover{
+  color: rgba(255, 255, 255, 0.8);
+  background-color: transparent;
+}
+
+/**************
+   TIPOGRAFIA 
+***************/
+
+p.texto-14{
+	font-size:14px;
+	text-align:justify;
+}
+
+p.texto-15{
+	font-size:15px;
+	text-align:justify;
+}
+
+p.texto-16{
+	font-size:16px;
+	text-align:justify;
+}
+
+p.texto-18{
+	font-size:18px;
+}
+
+
+
+
+
+/*NAV LATERAL DOCS*/
+
+.nav.nav-pills.nav-stacked.nav-docs li a{
+  color: #39c;
+  background-color: #f2f2f2;
+  text-align:center;
+  font-size:16px;
+  font-weight:bold;
+  margin-bottom:20px; 
+}
+
+
+/* LENZO */ 
+.lenzo{
+  box-sizing:border-box;
+  padding:20px 40px;
+  border-radius:4px;
+  text-align:justify;
+  background-color: #f2f2f2;
+}
+
+.welcome{
+  text-align:center;
+  color:#39c;
+  margin-bottom:40px;
+}
+
+/* IMG BOX */
+
+.img_box{
+  width:70%;
+  margin:0 auto;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+.img_box.peq{
+  width:60%;
+}
+
+.img_box.esq{
+  width:50%;
+  background-color: #fff;
+}
+.img_box.der{
+  width:50%;
+  float:right;
+}
