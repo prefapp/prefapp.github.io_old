@@ -3,6 +3,8 @@
 body, html{
 /*background-color: #82c2e0;*/
 background-color: #5badd6;
+	font-size:14px;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 
@@ -24,7 +26,9 @@ background-color: #5badd6;
 .nav.navbar-nav.nav-top{
   margin-right:40px; 
   float:right;
+  margin-top:20px;
 }
+
 .nav.navbar-nav.nav-top > li > a {
 	font-size:10px; 
 }
@@ -49,32 +53,16 @@ ul.navbar-nav.nav > li > a:hover{
   background-color: transparent;
 }
 
-/**************
-   TIPOGRAFIA 
-***************/
-
-p.texto-14{
-	font-size:14px;
-	text-align:justify;
+ul.navbar-nav.nav > li > a:focus,
+ul.navbar-nav.nav > li > a:visited{
+  color: rgba(255, 255, 255, 0.8);
+  background-color: transparent;
 }
 
-p.texto-15{
-	font-size:15px;
-	text-align:justify;
+.navbar-toggle{
+  color:white;
+  margin-top:20px;
 }
-
-p.texto-16{
-	font-size:16px;
-	text-align:justify;
-}
-
-p.texto-18{
-	font-size:18px;
-}
-
-
-
-
 
 /*NAV LATERAL DOCS*/
 
@@ -91,35 +79,45 @@ p.texto-18{
 /* LENZO */ 
 .lenzo{
   box-sizing:border-box;
-  padding:20px 40px;
+  padding:20px 80px;
   border-radius:4px;
   text-align:justify;
   background-color: #f2f2f2;
 }
+img{
+  margin-bottom:20px;
+}
 
-.welcome{
+.alert{ 
+  border-radius:10px;
+  text-align:center;
+}
+
+  .alert-warning{
+    background-color: #f5d6b9;
+  }
+
+/**************
+   TIPOGRAFIA 
+***************/
+h1.welcome{
   text-align:center;
   color:#39c;
   margin-bottom:40px;
 }
 
-/* IMG BOX */
+h2, h3{
+  color:#39c;
+  margin-top:40px;
+  margin-bottom:30px;
+  text-align:left;
+}
 
-.img_box{
-  width:70%;
-  margin:0 auto;
-  margin-top:20px;
+h4{
   margin-bottom:20px;
-}
-.img_box.peq{
-  width:60%;
+  
 }
 
-.img_box.esq{
-  width:50%;
-  background-color: #fff;
-}
-.img_box.der{
-  width:50%;
-  float:right;
+p{
+  margin-bottom:20px;
 }
